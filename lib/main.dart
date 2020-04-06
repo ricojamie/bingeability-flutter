@@ -1,14 +1,13 @@
+import 'package:bingeability/movie_page.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(Main());
+void main() => runApp(MyApp());
 
-class Main extends StatelessWidget {
-  const Main({Key key}) : super(key: key);
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: null,
+    return MaterialApp(
+      home: MoviePage(),
     );
   }
 }
